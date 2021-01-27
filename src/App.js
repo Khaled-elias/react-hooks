@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Counter from './component/Counter'
+import Effect from './component/Effect'
+import Previous from './component/Previous'
+import Api from './component/Api';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Counter />
+      <Effect />
+      <Previous />
+      <Api />
+      
     </div>
   );
 }
