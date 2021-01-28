@@ -22,7 +22,7 @@ const Counter = () => {
        <button onClick={() => setCount(count - 1)}>-</button>
        <button onClick={() => setCount( 0)}>+Reset</button>
        <input type="text" onChange={(event) =>setInput(event.target.value)} value={input}></input>
-       <p>{input}</p>
+       <p className="dodo">{input}</p>
       </div>
     );
   }
